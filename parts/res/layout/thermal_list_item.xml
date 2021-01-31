@@ -45,9 +45,7 @@
             android:layout_marginTop="2dp"
             android:ellipsize="marquee"
             android:singleLine="true"
-            android:textAlignment="viewStart"
-            android:textAppearance="@style/TextAppearance.Medium"
-            android:textColor="?android:attr/textColorPrimary" />
+            android:textAlignment="viewStart" />
 
         <Spinner
             android:id="@+id/app_mode"
