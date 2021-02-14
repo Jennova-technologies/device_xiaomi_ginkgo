@@ -7,7 +7,7 @@
     },
     {
         "remote":       "github",
-        "repository":   "Jennova-technologies/android_vendor_xiaomi_ginkgo",
+        "repository":   "Jennova-technologies/vendor_xiaomi_ginkgo",
         "target_path":  "vendor/xiaomi/ginkgo",
         "branch":       "PE-11"
     },
