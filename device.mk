@@ -12,13 +12,6 @@ $(call inherit-product, vendor/xiaomi/ginkgo/ginkgo-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    kernel/xiaomi/ginkgo \
-    hardware/google/interfaces \
-    hardware/google/pixel
-
 PRODUCT_PACKAGES += \
     GinkgoMiuiCamera \
     NoCutoutOverlay \
@@ -381,6 +374,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.0.vendor \
     vendor.qti.hardware.servicetracker@1.1.vendor \
     vendor.qti.hardware.servicetracker@1.2.vendor
+
+# Soong namespace
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    kernel/xiaomi/ginkgo
 
 # Telephony
 PRODUCT_PACKAGES += \
