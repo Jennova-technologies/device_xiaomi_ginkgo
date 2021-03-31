@@ -44,6 +44,9 @@ ro.incremental.enable=1
 
 # LMKD
 ro.config.low_ram=false
+ro.lmk.psi_partial_stall_ms=80
+ro.lmk.thrashing_limit=90
+ro.lmk.thrashing_limit_decay=15
 ro.lmk.log_stats=true
 
 # NFC
